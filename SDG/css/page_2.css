@@ -1,0 +1,24 @@
+#main {
+  background-color: #eb4559;
+  padding: 2% 5% 15% 5%;
+  background-image: url("image.jpg");
+}
+
+.h2 {
+  text-align: center;
+  padding-bottom: 3%;
+  color: #f6def6;
+}
+
+.h3 {
+  color: #393e46;
+  text-align: center;
+}
+
+.card {
+  margin: 5% 0;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}

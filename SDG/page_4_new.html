@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RAIT</title>
+	<link rel="stylesheet" type="text/css" href="page_4_new.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style type="text/css">
+	.pink {
+		background: #fff;
+		
+	}
+	.white {
+		background: white;
+		border: 1px solid purple;
+	}
+	div.a{
+		font-size: 18px;
+	}
+
+</style>
+</head>
+<body class="pink">
+  <nav class="navbar-custom navbar navbar-expand-lg ">
+  <a class="navbar-brand" href="#" style="color: #f7f7f7"><b>RAIT Internships</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      </ul>
+    <form class="form-inline my-2 my-lg-0">
+
+      <a href="page_2.php" class="btn btn-outline-success my-2 my-sm-0 mr-3 " style="color: #f7f7f7;"><b>Home</b></a>
+      <a href="#" class="btn btn-outline-secondary my-2 my-sm-0 mr-4 " style="color: #f7f7f7;"><b>Apply Here!</b></a>
+    </form>
+   <a href="#"><i class="fa fa-user-circle-o" style="color: #f7f7f7;"></i> </a>
+  </div>
+
+</nav>
+<br><br>
+<div class="container container_2" >
+<h1 align="center" style="color: #666666">YOUR INTERNSHIP DETAILS</h1><br>
+<form action = "internship.php" method = "POST">
+
+	
+		<div class="col-lg-12 a" style="color: #333333;"><b>
+            <br><br>
+            <h2 style="color:black">Enter details here:</h2><br>
+            <label for = "roll_no">Roll No:</label>
+            <input type ="text" name = "roll_no" required><br><br>
+            <label for= "topic">Topic: </label>
+            <input type="text" name = "topic" required><br><br>
+            <label for = "year">Year: </label>
+            <input type="text" name = "year" required><br><br>
+            <label for = "duration" >Duration:</label>
+            <input type="number" name = "duration" required>&nbsp;months</input><br><br>
+            <label for = "start_end_date">Start & End Date:</label>
+            <input type="date" name = "start_date" required>&emsp; to </input>&emsp;
+            <input type="date" name = "end_date" required><br><br>
+			
+  <label for="myfile">Add Additional Documents:</label>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+  <input type="submit"  class="mb-2 btn submit_btn">
+</form><br></b>
+
+
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

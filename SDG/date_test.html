@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RAIT</title>
+<link rel="stylesheet" type="text/css" href="css/page_4.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+.pink {
+background: #fac093;
+
+}
+.white {
+background: white;
+border: 1px solid purple;
+}
+div.a{
+font-size: 18px;
+}
+
+</style>
+</head>
+<body class="pink">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#" style="color: red"><b>RAIT Internships</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      </ul>
+    <form class="form-inline my-2 my-lg-0">
+
+      <a href="page_2.php" class="btn btn-outline-success my-2 my-sm-0 mr-3" style="color: red"><b>Home</b></a>
+      <a href="#" class="btn btn-outline-success my-2 my-sm-0 mr-4" style="color: red"><b>Apply Here!</b></a>
+    </form>
+   <a href="#"><i class="fa fa-fw fa-user mr-3"></i> </a>
+  </div>
+
+</nav>
+<br><br>
+<h1 align="center" style="color: red">Your Internship Details</h1><br>
+<form action = "internship.php" method = "POST">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 white a" style="color: red"><b>
+            <br><br>
+            <h2 style="color:black">Enter details here:</h2><br>
+            <label for = "roll_no">Roll No:</label>
+            <input type ="text" name = "roll_no" required><br><br>
+            <label for= "topic">Topic: </label>
+            <input type="text" name = "topic" required><br><br>
+            <label for = "year">Year: </label>
+            <input type="text" name = "year" required><br><br>
+            <label for = "duration" >Duration:</label>
+            <input type="number" name = "duration" required>months</input><br><br>
+            <label for = "start_end_date">Start & End Date:</label>
+            <input type="date" id="start" name = "start_date" value="2020-05-20" max="2100-12-31" min="1983-12-31"required> to </input>
+            <input type="date" id="end" name = "end_date" value="2020-07-20" max="2100-12-31" min="1983-12-31"required><br><br>
+
+  <label for="myfile">Add Additional Documents:</label>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+  <input type="submit" style="margin-left: 45%">
+</form><br></b>
+
+
+
+</div>
+
+</div>
+</div>
+</body>
+</html>

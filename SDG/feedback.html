@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<div class="container">
+<body>
+    <h1>STUDENTS FEEDBACK OF INTERNSHIP</h1>
+    <br><br>
+    <form action="feedback.php" method="POST">
+    <label for="name">Student Name:</label>
+    <input type="text" size="42" name="Student_name">&emsp;
+    <label for="date">Date:</label>
+    <input type="date" name="Date">
+    <br><br>
+    <label for="">Industrial Supervisor:</label>
+    <input type="text" size="35" name="Industrial_Supervisor">&emsp;
+    <label for="">Title:</label>
+    <input type="text" name="Title">
+    <br><br>
+    <label for="">Supervisor Email:</label>
+    <input type="email" size="35" name="Supervisor_Email">&emsp;
+    <label for="">Internship is:</label>
+    <input type="radio" id="paid" name="internship_type" value="Paid"> Paid
+    <!-- <label for="paid">Paid</label> -->
+    <input type="radio" id="unpaid" name="internship_type" value="Unpaid"> Unpaid
+    <!-- <label for="unpaid">Unpaid</label> -->
+    <br><br>
+    <label for="">Company/Organization name:</label>
+    <input type="text" size="60" name="Organization_name">
+    <br><br>
+    <label for="">Organization Address:</label>
+    <input type="text" size="80" name="Organization_Address">
+    <br><br>
+    <label for="">Faculty Coordinator:</label>
+    <input type="text" size="40" name="Faculty_Coordinator">&emsp;
+    <label for="">Department:</label>
+    <input type="text" name="Department">
+    <br><br>
+    <label for="">Date of Internship:</label>
+    <label for="">From</label>
+    <input type="date" name="Start_date">
+    <label for="">To</label>
+    <input type="date" name="End_date"><br>
+    <p><b>**Please fill out the above in full detail**</b></p>
+    <p>Give a brief description of your internship work (title and tasks for which you were responsible):<br>
+        Was your internship experience related to your major area of study?
+    </p>
+    <label for="">Indicate the degree to which you agree or disagree with the following statements.</label>
+    <br>
+        <input type="radio" name="experience" value="Yes, to a large degree"> Yes, to a large degree <br>
+        <input type="radio" name="experience" value="Yes,to a slightly degree"> Yes,to a slightly degree <br>
+        <input type="radio" name="experience" value="No, not related at all"> No, not related at all 
+    <table border="1" >
+        <tr>
+            <td>This experience has:</td>
+                <td class="y">Strongly <br> Agree</td>
+                <td class="y">Agree</td>
+                <td class="y">No Opinion</td>
+                <td class="y">Disagree</td>
+                <td class="y">Strongly <br> Disagree</td>   
+        </tr>
+        <tr>
+            <td>Given me the opportunity to explore a career field</td>
+                <td><input type="radio" name="b" id="t"></td>
+                <td><input type="radio" name="b" id="t"></td>
+                <td><input type="radio" name="b" id="t"></td>
+                <td><input type="radio" name="b" id="t"></td>
+                <td><input type="radio" name="b" id="t"></td>    
+        </tr>
+        <br>
+        <tr>
+            <td>Allowed me to apply classroom theory to practice</td>
+            <td><input type="radio" name="c" id="t"></td>
+            <td><input type="radio" name="c" id="t"></td>
+            <td><input type="radio" name="c" id="t"></td>
+            <td><input type="radio" name="c" id="t"></td>
+            <td><input type="radio" name="c" id="t"></td>
+        </tr>
+        <br>
+        <tr>
+            <td>Helped me develop my decision-making and problem-solving skills</td>
+            <td><input type="radio" name="d" id="t"></td>
+            <td><input type="radio" name="d" id="t"></td>
+            <td><input type="radio" name="d" id="t"></td>
+            <td><input type="radio" name="d" id="t"></td>
+            <td><input type="radio" name="d" id="t"></td>
+        </tr>
+        <tr>
+            <td>Expanded my knowledge about the work world prior to permanent employment</td>
+            <td><input type="radio" name="e" id="t"></td>
+            <td><input type="radio" name="e" id="t"></td>
+            <td><input type="radio" name="e" id="t"></td>
+            <td><input type="radio" name="e" id="t"></td>
+            <td><input type="radio" name="e" id="t"></td>
+        </tr>
+        <tr>
+            <td>Helped me develop my written and oral communication skills</td>
+            <td><input type="radio" name="f" id="t"></td>
+            <td><input type="radio" name="f" id="t"></td>
+            <td><input type="radio" name="f" id="t"></td>
+            <td><input type="radio" name="f" id="t"></td>
+            <td><input type="radio" name="f" id="t"></td>
+        </tr>
+        <tr>
+            <td>Provided a chance to use leadership skills <br>(influence others, develop ideas with others, stimulate decision-making and action)</td>
+            <td><input type="radio" name="g" id="t"></td>
+            <td><input type="radio" name="g" id="t"></td>
+            <td><input type="radio" name="g" id="t"></td>
+            <td><input type="radio" name="g" id="t"></td>
+            <td><input type="radio" name="g" id="t"></td>
+        </tr>
+        <tr>
+            <td>Expanded my sensitivity to the ethical implications of the work involved</td>
+            <td><input type="radio" name="i" id="t"></td>
+            <td><input type="radio" name="i" id="t"></td>
+            <td><input type="radio" name="i" id="t"></td>
+            <td><input type="radio" name="i" id="t"></td>
+            <td><input type="radio" name="i" id="t"></td>
+        </tr>
+        <tr>
+            <td>Made it possible for me to be more <br>confident in new situations</td>
+            <td><input type="radio" name="j" id="t"></td>
+            <td><input type="radio" name="j" id="t"></td>
+            <td><input type="radio" name="j" id="t"></td>
+            <td><input type="radio" name="j" id="t"></td>
+            <td><input type="radio" name="j" id="t"></td>
+        </tr>
+        <tr>
+            <td>Given me a chance to improve my <br>interpersonal skills</td>
+            <td><input type="radio" name="k" id="t"></td>
+            <td><input type="radio" name="k" id="t"></td>
+            <td><input type="radio" name="k" id="t"></td>
+            <td><input type="radio" name="k" id="t"></td>
+            <td><input type="radio" name="k" id="t"></td>
+        </tr>
+        <tr>
+            <td>Helped me learn to handle responsibility <br>and use my time wisely</td>
+            <td><input type="radio" name="l" id="t"></td>
+            <td><input type="radio" name="l" id="t"></td>
+            <td><input type="radio" name="l" id="t"></td>
+            <td><input type="radio" name="l" id="t"></td>
+            <td><input type="radio" name="l" id="t"></td>
+        </tr>
+        <tr>
+            <td>Helped me discover new aspects of myself <br>that I didn't know existed before</td>
+            <td><input type="radio" name="m" id="t"></td>
+            <td><input type="radio" name="m" id="t"></td>
+            <td><input type="radio" name="m" id="t"></td>
+            <td><input type="radio" name="m" id="t"></td>
+            <td><input type="radio" name="m" id="t"></td>
+        </tr>
+        <tr>
+            <td>Helped me develop new intrests and <br>abilities</td>
+            <td><input type="radio" name="n" id="t"></td>
+            <td><input type="radio" name="n" id="t"></td>
+            <td><input type="radio" name="n" id="t"></td>
+            <td><input type="radio" name="n" id="t"></td>
+            <td><input type="radio" name="n" id="t"></td>
+        </tr>
+        <tr>
+            <td>Helped me clarify my career goals</td>
+            <td><input type="radio" name="o" id="t"></td>
+            <td><input type="radio" name="o" id="t"></td>
+            <td><input type="radio" name="o" id="t"></td>
+            <td><input type="radio" name="o" id="t"></td>
+            <td><input type="radio" name="o" id="t"></td>
+        </tr>
+        <tr>
+            <td>Provided me with contacts which may <br>lead to future employment</td>
+            <td><input type="radio" name="p" id="t"></td>
+            <td><input type="radio" name="p" id="t"></td>
+            <td><input type="radio" name="p" id="t"></td>
+            <td><input type="radio" name="p" id="t"></td>
+            <td><input type="radio" name="p" id="t"></td>
+        </tr>
+        <tr>
+            <td>Allowed me to acquire information and/or <br>use equipment not available at my <br>institute</td>
+            <td><input type="radio" name="q" id="t"></td>
+            <td><input type="radio" name="q" id="t"></td>
+            <td><input type="radio" name="q" id="t"></td>
+            <td><input type="radio" name="q" id="t"></td>
+            <td><input type="radio" name="q" id="t"></td>
+        </tr>
+    </table>
+    <br><br> 
+        <button type="submit" class="btn btn-primary mb-2" class="abc" name="Result" center>Submit</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
